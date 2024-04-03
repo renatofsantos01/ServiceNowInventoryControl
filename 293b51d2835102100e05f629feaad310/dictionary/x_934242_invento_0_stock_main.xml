@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4b64a55e835102100e05f629feaad3cf" label="Stock Main" max_length="40" name="x_934242_invento_0_stock_main" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_934242_invento_0_category" type="reference"/>
+        <element label="Due date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="20" name="price" type="currency"/>
+        <element label="Product" max_length="32" name="product" reference="x_934242_invento_0_product" type="reference"/>
+        <element label="Product input" max_length="40" name="product_input" type="glide_date"/>
+        <element label="Product output" max_length="40" name="product_output" type="glide_date"/>
+        <element label="Quantity" max_length="40" name="quantity" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+        <index name="index2">
+            <element name="product"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

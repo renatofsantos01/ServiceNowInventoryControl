@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bb849692835502100e05f629feaad38c" label="Category" max_length="40" name="x_934242_invento_0_category" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Label" max_length="40" name="label" type="string"/>
+    </element>
+</database>
